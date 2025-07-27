@@ -1,0 +1,27 @@
+.bg{
+    background-color: #2C3E50;
+}
+
+.copyrigh{
+    background-color: #1A252F;
+}
+
+.con{
+    width: 85%;
+    margin: auto;
+}
+.icon{
+   border: 1px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;      
+  height: 40px;    
+  font-size: 16px;
+
+
+
+}

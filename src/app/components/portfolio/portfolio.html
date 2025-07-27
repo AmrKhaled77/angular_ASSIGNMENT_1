@@ -1,0 +1,98 @@
+<section class=" min-vh-100 p-5     d-flex align-items-center justify-content-center">
+
+    <div class=" container ">
+        <h1 class="coler text-center">portfolio component</h1>
+
+        <div class="divider-custom coler">
+            <div class="divider-custom-line bg"></div>
+            <div class="divider-custom-icon coler">★</div>
+            <div class="divider-custom-line bg"></div>
+        </div>
+
+
+
+
+<div class="row g-0 ">
+
+    
+    <div (click)="openModal('/port3.png')" class="inner p-3 col-lg-4 col-md-6 ">
+          <div class="item bg-danger rounded-4 position-relative overlay-container">
+           
+       <img class="w-100 d-block" src="/port3.png" alt="">
+   
+       <div class="overlay  d-flex justify-content-center align-items-center">
+           <i class="fa-solid fa-plus text-white " style="font-size: 80px;"></i>
+       </div>
+   </div>
+    </div>
+    <div (click)="openModal('/port3.png')" class="inner p-3 col-lg-4 col-md-6 ">
+          <div class="item bg-danger rounded-4 position-relative overlay-container">
+           
+       <img class="w-100 d-block" src="/port3.png" alt="">
+   
+       <div class="overlay  d-flex justify-content-center align-items-center">
+           <i class="fa-solid fa-plus text-white " style="font-size: 80px;"></i>
+       </div>
+   </div>
+    </div>
+    <div (click)="openModal('/port2.png')" class="inner p-3 col-lg-4 col-md-6 ">
+          <div class="item bg-danger rounded-4 position-relative overlay-container">
+           
+       <img class="w-100 d-block" src="/port2.png" alt="">
+   
+       <div class="overlay  d-flex justify-content-center align-items-center">
+           <i class="fa-solid fa-plus text-white " style="font-size: 80px;"></i>
+       </div>
+   </div>
+    </div>
+    <div (click)="openModal('/port2.png')" class="inner p-3 col-lg-4 col-md-6 ">
+          <div class="item bg-danger rounded-4 position-relative overlay-container">
+           
+       <img class="w-100 d-block" src="/port2.png" alt="">
+   
+       <div class="overlay  d-flex justify-content-center align-items-center">
+           <i class="fa-solid fa-plus text-white " style="font-size: 80px;"></i>
+       </div>
+   </div>
+    </div>
+    <div (click)="openModal('/poert1.png')" class="inner p-3 col-lg-4 col-md-6 ">
+          <div class="item bg-danger rounded-4 position-relative overlay-container">
+           
+       <img class="w-100 d-block" src="/poert1.png" alt="">
+   
+       <div class="overlay  d-flex justify-content-center align-items-center">
+           <i class="fa-solid fa-plus text-white " style="font-size: 80px;"></i>
+       </div>
+   </div>
+    </div>
+    <div (click)="openModal('/poert1.png')" class="inner p-3 col-lg-4 col-md-6 ">
+          <div class="item bg-danger rounded-4 position-relative overlay-container">
+           
+       <img class="w-100 d-block" src="/poert1.png" alt="">
+   
+       <div class="overlay  d-flex justify-content-center align-items-center">
+           <i class="fa-solid fa-plus text-white " style="font-size: 80px;"></i>
+       </div>
+   </div>
+    </div>
+   
+   
+  
+
+
+<div id="imageModal" [class.d-none]="!showModal"   class="custom-modal  ">
+    
+  <div (click)="closeModal()" class="modal-overlay"></div>
+  <div class="modal-content">
+    <img id="modalImage" [src]="selectedImage" class="w-100 rounded-4" alt="modal image" />
+  </div>
+</div>
+        
+
+</div>
+        
+        </div>
+        </section>
+
+
+      
